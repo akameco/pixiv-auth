@@ -1,0 +1,27 @@
+{
+  "name": "pixiv-auth",
+  "version": "0.0.0",
+  "description": "now pixiv auth",
+  "license": "MIT",
+  "repository": "akameco/pixiv-auth",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "scripts": {
+    "start": "micro"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "pixiv",
+    "micro"
+  ],
+  "dependencies": {
+    "axios": "^0.16.1",
+    "micro": "^7.3.2",
+    "micro-cors": "^0.0.4"
+  }
+}
